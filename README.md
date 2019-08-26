@@ -39,17 +39,17 @@ which will be saved in the compiler's current directory.
 Here is a simple pix code, converted to text, showing its syntax.
 
 
-INIT
+    INIT
 
-TYPEFLOAT ID1 ENDLINE
-IN ID1 ENDLINE
+    TYPEFLOAT ID1 ENDLINE
+    IN ID1 ENDLINE
 
-IF ID1 LESSEQUAL INT 5
-THEN OUT STRING QUOT M E N O R QUOT ENDLINE END
-ELSE OUT STRING QUOT M A I O R QUOT ENDLINE END
+    IF ID1 LESSEQUAL INT 5
+    THEN OUT STRING QUOT M E N O R QUOT ENDLINE END
+    ELSE OUT STRING QUOT M A I O R QUOT ENDLINE END
 
-RETURN INT 0
+    RETURN INT 0
 
-ENDOFCODE
+    ENDOFCODE
 
 As said before, it's pretty similar to FORTRAN and C language. Just like both languages, it's weakly-typed.
