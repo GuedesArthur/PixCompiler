@@ -36,6 +36,8 @@ Then, with an editing software of your choice, paint the "colorwords" on your im
 After saving it, just drag the bitmap onto the compiler executable file and it will convert your pix code to a C language file,
 which will be saved in the compiler's current directory.
 
+
+
 ## COLORWORD SYNTAX
 
 Here is a simple pix code, converted to text, showing its syntax.
@@ -56,6 +58,8 @@ Here is a simple pix code, converted to text, showing its syntax.
 
 As said before, it's pretty similar to FORTRAN and C language. Just like both languages, it's weakly-typed.
 
+
+
 ## Declarations
 
 To declare a variable, just use the TYPE_VALUE keywords:
@@ -64,6 +68,8 @@ To declare a variable, just use the TYPE_VALUE keywords:
     TYPEFLOAT ID1 ENDLINE
 
 Make sure to end the sentence with an ENDLINE keyword.
+
+
 
 ## Conditional
 
@@ -77,6 +83,8 @@ The value structure represents the result of any operation between variables and
 if the value of VALUE is positive (DIFFERS 0) or negative (EQUALS 0). In the former case, it will follow the proceedures
 contained between THEN and END. In the latter, it will follow the proceedures between ELSE and END (if present).
 
+
+
 ## Loops
 
 Loops follow a similar pattern:
@@ -86,6 +94,8 @@ Loops follow a similar pattern:
         
 Should VALUE be positive, the proceedures between THEN and END will repeat until it assumes a negative value.
 
+
+
 ## Assigning values
 
 The ASSIGN clause should be used like this:
@@ -93,6 +103,8 @@ The ASSIGN clause should be used like this:
     ASSIGN ID TYPE_VALUE VALUE ENDLINE
 
 Just make sure that the type of the value matches its ID's type.
+
+
 
 ## I/O
 
