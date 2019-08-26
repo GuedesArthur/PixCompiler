@@ -1,10 +1,13 @@
-# PixCompiler
+# PixCompiler 
 Final project for Compilers class 2019.2
 
 Pix compiler is maybe the first compiler to work with pixels rather than plain text. All you have to do is set a custom
 pallet (or use the default one), open any image editor software, such as MS Paint or Paint.NET(Recommended) and start coding!
 
 It's syntax is similar to FORTRAN's...but with pixels instead.
+
+***Work in Progress***
+
 
 **HOW TO CODE**
 
